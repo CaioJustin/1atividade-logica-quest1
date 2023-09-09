@@ -1,0 +1,60 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : 7 Questão
+// Autor(a)    : Caio Justino de Jesus Santos
+// Data atual  : 06/09/2023
+Var
+   Produto : Caracter
+   Quantidade    : Inteiro
+   PrecoUnitario : Real
+   Total         : Real
+   Desconto     : Real
+   TotalPagar   :Real
+
+Inicio
+
+   Escreva ("Escreva o nome do Produto :")
+   Leia(Produto)
+
+   Escreva("Escreva a Quantidade do Produto comprado :")
+   Leia(Quantidade)
+
+   Escreva("Escreva o Preço do Produto da unidade:")
+   Leia(PrecoUnitario)
+
+   Total <- Quantidade * PrecoUnitario
+
+   //Se
+
+   Se (quantidade <=5 ) entao
+      desconto<- total * 0.02
+   senao
+      se (quantidade <=10) entao
+         desconto<- total * 0.03
+      senao
+         desconto <- total* 0.05
+      fimse
+   fimse
+
+   TotalPagar<- total- desconto
+
+
+
+
+
+   //Mostrando para o Usuario
+
+   Limpatela
+   Escreval("----Nota Fiscal----")
+   Escreval("")
+   Escreval ("O Nome do Produto:",Produto)
+   Escreval ("Quantidade a Comprar :",Quantidade)
+   Escreval ("Preço por Unidade :R$",Precounitario)
+   Escreval("")
+   Escreval ("Total a pagar sem Desconto:R$",Total)
+   Escreval ("Desconto Aplicado:",Desconto)
+   Escreval("")
+   Escreval ("O Nome do Preço Total a Pagar :R$",TotalPagar)
+
+Fimalgoritmo
