@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : 7 Quest„o
+// Descri√ß√£o   : 7 Quest√£o
 // Autor(a)    : Caio Justino de Jesus Santos
 // Data atual  : 06/09/2023
 Var
@@ -20,7 +20,7 @@ Inicio
    Escreva("Escreva a Quantidade do Produto comprado :")
    Leia(Quantidade)
 
-   Escreva("Escreva o PreÁo do Produto da unidade:")
+   Escreva("Escreva o Pre√ßo do Produto da unidade:")
    Leia(PrecoUnitario)
 
    Total <- Quantidade * PrecoUnitario
@@ -50,11 +50,11 @@ Inicio
    Escreval("")
    Escreval ("O Nome do Produto:",Produto)
    Escreval ("Quantidade a Comprar :",Quantidade)
-   Escreval ("PreÁo por Unidade :R$",Precounitario)
+   Escreval ("Pre√ßo por Unidade :R$",Precounitario)
    Escreval("")
    Escreval ("Total a pagar sem Desconto:R$",Total)
    Escreval ("Desconto Aplicado:",Desconto)
    Escreval("")
-   Escreval ("O Nome do PreÁo Total a Pagar :R$",TotalPagar)
+   Escreval ("O Nome do Pre√ßo Total a Pagar :R$",TotalPagar)
 
 Fimalgoritmo
