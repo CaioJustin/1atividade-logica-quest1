@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : 4Quest„o
+// Descri√ß√£o   : 4Quest√£o
 // Autor(a)    : caio Justio
 // Data atual  : 08/09/2023
 Var
@@ -13,7 +13,7 @@ Var
 
 Inicio
 
-   Escreval("Digite a quantidade em Kg de maÁa comprada")
+   Escreval("Digite a quantidade em Kg de ma√ßa comprada")
    Leia(MacaKG)
 
    Escreval("Digite a quantidade em Kg de morango comprado")
@@ -21,7 +21,7 @@ Inicio
 
    totalKg <- morangoKg + macaKg
 
-   //FunÁ„o Se
+   //Fun√ß√£o Se
 
    se (morangoKg <= 5) entao
       valorMorango <- morangoKg * 2.50
@@ -49,7 +49,7 @@ Inicio
    escreval("---------NOTA FISCAl-----------")
    escreval("")
    escreval("Quantidade de morangos kg:", morangoKg)
-   escreval("Quantidade de maÁ„s kg:",macaKg)
+   escreval("Quantidade de ma√ß√£s kg:",macaKg)
    escreval("")
    escreval("total:",  totalKg , "KG" )
    escreval("Valor:R$", valorTotal)
