@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : 10Questao
+// DescriÃ§Ã£o   : 10Questao
 // Autor(a)    : Caio Justio
 // Data atual  : 09/09/2023
 Var
@@ -14,10 +14,10 @@ Var
 
 Inicio
 
-   Escreva("Digite o número de litros vendidos: ")
+   Escreva("Digite o nÃºmero de litros vendidos: ")
    Leia(litrosVendidos)
 
-   Escreva("Digite o tipo de combustível (alcool, gasolina): ")
+   Escreva("Digite o tipo de combustÃ­vel (alcool, gasolina): ")
    Leia(tipoCombustivel)
 
 
@@ -35,7 +35,7 @@ Inicio
             valorTotal <- litrosVendidos * (6.59 - (6.59 * 0.05))
          FimSe
       Senao
-         Escreva("Tipo de combustível inválido.")
+         Escreva("Tipo de combustÃ­vel invÃ¡lido.")
       FimSe
    FimSe
 
