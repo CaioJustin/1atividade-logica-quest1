@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/09/2023
 Var
@@ -15,19 +15,19 @@ Inicio
    Leia(Cd)
 
    Se(Cd = "verde")entao
-      Escreva("O Preço e R$ 10,00")
+      Escreva("O PreÃ§o e R$ 10,00")
    senao
 
       Se(Cd = "azul")entao
-         Escreva("O Preço e R$ 20,00")
+         Escreva("O PreÃ§o e R$ 20,00")
       senao
 
          Se(Cd = "amaralo")entao
-            Escreva("O Preço e R$ 30,00")
+            Escreva("O PreÃ§o e R$ 30,00")
          senao
 
             Se(Cd = "vermelho")entao
-               Escreva("O Preço e R$ 40,00")
+               Escreva("O PreÃ§o e R$ 40,00")
             Fimse
          fimse
       Fimse
