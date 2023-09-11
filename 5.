@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : 5 questão
+// DescriÃ§Ã£o   : 5 questÃ£o
 // Autor(a)    : caio justino
 // Data atual  : 05/09/2023
 Var
@@ -16,8 +16,8 @@ Var
 
 
 Inicio
-   Escreval("Opções de sistema matematico +,-,*,/:")
-   escreva ("Escolha a Operação Matematica:")
+   Escreval("OpÃ§Ãµes de sistema matematico +,-,*,/:")
+   escreva ("Escolha a OperaÃ§Ã£o Matematica:")
    leia(OperacaoM)
 
    Escreva ("Digite o Valor de A:")
@@ -58,9 +58,9 @@ Fimse
 Limpatela
 escreval("----Sistema Matematico----")
 escreval("")
-Escreval("Opções de sistema matematico +,-,*,/")
+Escreval("OpÃ§Ãµes de sistema matematico +,-,*,/")
 escreval("")
-escreval("Escolha a Operação Matematica:",OperacaoM)
+escreval("Escolha a OperaÃ§Ã£o Matematica:",OperacaoM)
 escreval("")
 Escreval("Digite o Valor de A:",A)
 Escreval("Dite o valor de B:",B)
