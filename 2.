@@ -1,7 +1,7 @@
 Algoritmo "semnome"
 
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    Nome :Caracter
    sexo :caracter
@@ -11,7 +11,7 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
    Escreval ("Digite o Nome:")
@@ -32,7 +32,7 @@ Inicio
 
 //Mostra pro Usuario
 LimpaTela
-Escreval("----Informações do Cliente----")
+Escreval("----InformaÃ§Ãµes do Cliente----")
 escreval ("")
 escreval (" Nome do Usuario:",Nome)
 escreval (" Sexo do Usuario:",sexo)
