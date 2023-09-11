@@ -1,0 +1,69 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : 10Questão
+// Autor(a)    : Caio Justino de Jesus Santos
+// Data atual  : 11/09/2023
+Var
+
+   litrosVendidos, valorTotal: Real
+   tipoCombustivel: Caracter
+
+
+
+
+
+Inicio
+
+  Escreva("Digite o número de litros vendidos: ")
+   Leia(litrosVendidos)
+
+   Escreva("Digite o tipo de combustível (alcool, gasolina): ")
+   Leia(tipoCombustivel)
+
+
+   Se (tipoCombustivel = "alcool") Entao
+      Se litrosVendidos <= 25 Entao
+         valorTotal <- litrosVendidos * (3.79 - (3.79 * 0.02))
+      Senao
+         valorTotal <- litrosVendidos * (3.79 - (3.79 * 0.04))
+      FimSe
+   Senao
+      Se tipoCombustivel = "gasolina" Entao
+         Se litrosVendidos <= 25 Entao
+            valorTotal <- litrosVendidos * (6.59 - (6.59 * 0.03))
+         Senao
+            valorTotal <- litrosVendidos * (6.59 - (6.59 * 0.05))
+         FimSe
+      Senao
+         Escreva("Tipo de combustível inválido.")
+      FimSe
+   FimSe
+
+
+
+
+   //mostreando ao cliente
+   escreval("")
+   escreval("")
+   Escreva("Valor a ser pago pelo cliente: R$", valorTotal )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
