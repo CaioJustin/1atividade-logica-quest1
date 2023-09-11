@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 09/09/2023
 Var
@@ -13,10 +13,10 @@ Inicio
   Escreva("Digite a renda mensal do solicitante:R$")
    Leia(rendaMensal)
 
-   Escreva("Digite o valor total do empréstimo solicitado:R$")
+   Escreva("Digite o valor total do emprÃ©stimo solicitado:R$")
    Leia(valorEmprestimo)
 
-   Escreva("Digite o número de prestações desejadas: ")
+   Escreva("Digite o nÃºmero de prestaÃ§Ãµes desejadas: ")
    Leia(numParcelas)
 
    valorParcelasMax <- rendaMensal * 0.3
@@ -27,9 +27,9 @@ Inicio
    escreval("Valor das parcelas:R$ " , valorParcelasMax)
 
    Se (ValorEmprestimo <= 10 * rendaMensal) E (valorEmprestimo / numParcelas <= valorParcelasMax) Entao
-      Escreva("Empréstimo CONCEDIDO.")
+      Escreva("EmprÃ©stimo CONCEDIDO.")
    Senao
-      Escreva("Empréstimo NÃO CONCEDIDO.")
+      Escreva("EmprÃ©stimo NÃƒO CONCEDIDO.")
    FimSe
 
 
